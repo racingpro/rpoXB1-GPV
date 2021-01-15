@@ -1,30 +1,82 @@
-.edit .controller.ds4 {
-    background: url(skins/base-custom.png);
-}
-
-
 .controller.edit {
-    background: url(skins/base-custom.png);
+  background: url(https://i.imgur.com/Sv97tPs.png);
 }
 
-
-.edit .face .ds4 {
-    background: url(skins/dpad-custom.png);
+.edit.disconnected {
+  background: url(https://i.imgur.com/VXbbjZj.png);
 }
 
-
-.edit .face {
-    position: absolute;
-    background: url(skins/dpad-custom.png);
+.edit .quadrant {
+  display: none;
 }
 
-
-.edit .stick .ds4 {
-    background: url(skins/sticks-custom.png);
+.edit .p0 {
+    display: none;
 }
 
+.edit .p1 {
+    display: none;
+}
 
-.edit .stick {
-    position: absolute;
-    background: url(skins/sticks-custom.png);
+.edit .p2 {
+    display: none;
+}
+
+.edit .p3 {
+    display: none;
+}
+
+.edit .back, .edit .start {
+    background: url(assets/start-select.svg);
+    width: 33px;
+    height: 33px;
+    opacity: 0;
+}
+
+.edit .back.pressed, .edit .start.pressed {
+    opacity: 1;
+}
+
+.edit .back {
+    float: left;
+}
+
+.edit .start {
+    background-position: 33px 0px;
+    float: right;
+}
+
+.edit .button {
+  position: absolute;
+  background: url(assets/abxy.svg);
+}
+
+.edit .button.pressed {
+    background-position-y: -48px;
+    margin-top: 5px;
+    opacity: 1;
+}
+
+.edit .a {
+    background-position: 0 0;
+    top: 108px;
+    left: 55px;
+}
+
+.edit .b {
+    background-position: -49px 0;
+    top: 57px;
+    right: 3px;
+}
+
+.edit .x {
+    background-position: -98px 0;
+    top: 57px;
+    left: 4px;
+}
+
+.edit .y {
+    background-position: 48px 0;
+    left: 55px;
+    top: 5px;
 }
