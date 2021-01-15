@@ -27,7 +27,9 @@
 }
 
 .edit .back, .edit .start {
+  /*
     background: url(assets/start-select.svg);
+  */
     width: 33px;
     height: 33px;
     opacity: 0;
@@ -48,7 +50,9 @@
 
 .edit .button {
   position: absolute;
+  /*
   background: url(assets/abxy.svg);
+  */
 }
 
 .edit .button.pressed {
